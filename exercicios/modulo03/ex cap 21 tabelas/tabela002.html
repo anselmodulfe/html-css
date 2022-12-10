@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -23,6 +24,15 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: greenyellow;
+        }
+        tbody > tr:nth-child(2n) { /* Pode se criar dois ou mais estilos e usar: 2n, 3n, 4..., odd, even */
+            background-color: lightgray;
+        }
+        
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -97,5 +107,12 @@
             </tr>
         </tfoot>
     </table>
+    <h2>TETETESTE</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aut assumenda modi sapiente magnam beatae harum cum quaerat voluptatibus aliquid consectetur culpa blanditiis eius eos rem ducimus, placeat esse repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nihil nobis eos, porro illo nam nisi debitis, est necessitatibus blanditiis distinctio veniam voluptas? Aliquam minus, repellendus est atque fuga obcaecati!Lorem</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aut assumenda modi sapiente magnam beatae harum cum quaerat voluptatibus aliquid consectetur culpa blanditiis eius eos rem ducimus, placeat esse repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nihil nobis eos, porro illo nam nisi debitis, est necessitatibus blanditiis distinctio veniam voluptas? Aliquam minus, repellendus est atque fuga obcaecati!Lorem</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aut assumenda modi sapiente magnam beatae harum cum quaerat voluptatibus aliquid consectetur culpa blanditiis eius eos rem ducimus, placeat esse repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nihil nobis eos, porro illo nam nisi debitis, est necessitatibus blanditiis distinctio veniam voluptas? Aliquam minus, repellendus est atque fuga obcaecati!Lorem</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aut assumenda modi sapiente magnam beatae harum cum quaerat voluptatibus aliquid consectetur culpa blanditiis eius eos rem ducimus, placeat esse repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nihil nobis eos, porro illo nam nisi debitis, est necessitatibus blanditiis distinctio veniam voluptas? Aliquam minus, repellendus est atque fuga obcaecati!Lorem</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur aut assumenda modi sapiente magnam beatae harum cum quaerat voluptatibus aliquid consectetur culpa blanditiis eius eos rem ducimus, placeat esse repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nihil nobis eos, porro illo nam nisi debitis, est necessitatibus blanditiis distinctio veniam voluptas? Aliquam minus, repellendus est atque fuga obcaecati!Lorem</p>
+  
 </body>
 </html>
