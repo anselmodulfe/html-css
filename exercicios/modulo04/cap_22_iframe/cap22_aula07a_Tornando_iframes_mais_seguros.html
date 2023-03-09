@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança dos iframes</title>
+</head>
+<body>
+    <h2>Dicas da aula</h2>
+    <p>Para bloquear o envio de informações via iframe use: sandbox="sandbox"<br>e use também referrerpolicy="no-referrer"</p>
+    <p>pode se liberar alguns conteúdos via sandbox <br>
+    sandbox="allow-same-origin allow-forms allow-scripts" permite enviar dados de mesma origem, dos formularios e dos scripts <br>
+</p>
+    <hr>
+    
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ut alias architecto exercitationem incidunt ducimus quidem adipisci deserunt ex. Perspiciatis ea repellendus quia molestiae. Blanditiis illum corporis laudantium consequatur at.</p>
+    <iframe src="paginas_extras/pagina004.html" sandbox="sandbox" referrerpolicy="no-referrer">
+            Seu navegador não é compativel com isso
+    </iframe>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum excepturi corporis! Iste reprehenderit in porro provident, inventore vero perspiciatis, iusto illum nobis atque nulla expedita placeat optio mollitia praesentium!</p>
+</body>
+</html>
