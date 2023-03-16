@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    <hr>
+    <h2>Anotações da aula</h2>
+    <h4>Para desligar o auto completar</h4>
+    <p>Use: <strong>autocomplete="off"</strong></p>
+    <hr>
+    <h4>label-+-> Etiqueta</h4>
+    <p>O label relaciona o "nome" do campo ao campo. Usado para leitura pelo Google por exemplo</p>
+    <p>O campo for  do label recebe o id da caixa formulário</p>
+    <hr>
+    <h3>name e id</h3>
+    <p>O <strong>name</strong> é usado mais pelas linguagens HTML e PHP</p>
+    <p>Já o <strong>id</strong> é usado mais pelo JavaScript</p>
+</body>
+</html>
